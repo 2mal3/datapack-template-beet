@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 env:
-  NAME: ''
-  MODRINTH_ID: ''
+  NAME: ""
+  MODRINTH_ID: ""
 
 jobs:
   release:
@@ -61,5 +61,4 @@ jobs:
 
           loaders: datapack
           game-versions: |
-            1.21.0
-            1.21.1
+            1.21.10
